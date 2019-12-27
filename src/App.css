@@ -1,0 +1,295 @@
+
+html,body,#root,.App{
+    width: 100%;
+    height: 100%;
+    display: flex;flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 1rem;
+    background: #ffcd00;
+    text-align: center;
+    display: flex;flex-direction: row;
+}
+.top .hle{
+    width: 1rem;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.25rem
+}
+.top .hle span{
+    font-size: 0.1rem;
+}
+.top .hc{
+    flex: 1;
+    padding: 0.2rem;
+    box-sizing: border-box;
+}
+.top .hc input{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    border: none;
+    outline: none;
+    background: #fffae5;
+    font-size: 0.25rem;
+    text-indent: 0.2rem;
+}
+.top .hri{
+    width: 1rem;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.4rem;
+}
+.footer{
+    overflow: auto;
+    flex: 1;
+    display: flex;flex-direction: column;
+}
+.footer .img{
+    width: 100%;
+    height: auto;
+}
+.footer .img img{
+    width: 100%;
+    height: 100%;
+}
+.footer .jlt{
+    width: 100%;
+    height: 2.5rem;
+    /* background: coral; */
+}
+.footer .jlt dl{
+    width: 20%;
+    height: 1.1rem;
+    float: left;
+    text-align: center;
+    /* background: violet; */
+}
+.footer .jlt dl dt{
+    width: 100%;
+    height: auto;
+    padding:0 0.2rem;
+    box-sizing: border-box;
+    /* background: red; */
+}
+.footer .jlt dl dt img{
+    width: 100%;
+    height: auto;
+}
+.footer .jlt dl dd{
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.25rem;
+    /* background: yellow; */
+} 
+.footer .xh{
+    flex: 1;
+}
+.footer p{
+    font-size: 0.35rem;
+    padding:0 0.2rem;
+    box-sizing: border-box;
+}
+.footer .xh dl{
+    width: 100%;
+    height: 2rem;
+    /* background: brown; */
+    line-height: 0.5rem;
+    display: flex;flex-direction: row;
+}
+.footer .xh dl dt{
+    width: 2rem;
+    height: 100%;
+    padding: 0.2rem;
+    box-sizing: border-box;
+}
+.footer .xh dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.footer .xh dl dd{
+    flex: 1;
+    padding-right: 0.2rem;
+}
+.footer .xh dl dd p{
+    padding: 0.15rem 0;
+}
+.footer .xh dl dd span{
+    color: red;
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.footer .xh dl dd h2{
+    float: right;
+}
+.mtp{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    background: rgba(150,150,150,0);
+    padding:0.2rem 1rem;
+    box-sizing: border-box;
+}
+.mtp input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.25rem;
+    background: white;
+    background: #f4f4f4;
+}
+.ms{
+    width: 100%;
+    height: 100%;
+    /* background: #ffcd00; */
+}
+.ms .mt{
+    width: 100%;
+    height: 2rem;
+    background:url(/11.png);
+    background-size: 100%;
+    display: flex;flex-direction: row;
+    border-bottom: 0.01rem solid #cccccc;
+    
+}
+.ms .mt .le{
+    flex: 1;
+    padding-top: 1rem;
+    padding-right: 0.2rem;
+}
+.ms .mt .le button{
+    width: 1.8rem;
+    height: 0.6rem;
+    float: right;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background: white;
+    border: 0.01rem solid #06c1b0;
+}
+.ms .mt .ri{
+    flex: 1;
+    padding-top: 1rem;
+    padding-left: 0.2rem;
+
+}
+.ms .mt .ri button{
+    width: 1.8rem;
+    height: 0.6rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background: #06c1b0;
+}
+.ms .jlt{
+    width: 100%;
+    height: auto;
+    /* background: coral; */
+}
+.ms .jlt dl{
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.ms .jlt dl dt{
+    width: 100%;
+    height: auto;
+    padding:0 0.35rem;
+    box-sizing: border-box;
+}
+.ms .jlt dl dt img{
+    width: 100%;
+    height: auto;
+}
+.ms .jlt dl dd{
+    width: 100%;
+    height: auto;
+}
+.ms .sp{
+    width: 100%;
+    height: auto;
+}
+.ms .sp ul{
+    width: 100%;
+    height: 1rem;
+    display: flex;flex-direction: row;
+}
+.ms .sp ul li{
+    flex: 1;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.2rem;
+}
+.ms .sp ul li span{
+    font-size: 0.25rem;
+}
+.ms .sp .wp{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.ms .sp .wp dl{
+    width: 100%;
+    height: 2rem;
+    /* background: chartreuse; */
+    display: flex;flex-direction: row;
+}
+.ms .sp .wp dl dt{
+    width: 2rem;
+    height: 100%;
+    padding: 0.2rem;
+    box-sizing: border-box;
+} 
+.ms .sp .wp dl dt img{
+    width: 100%;
+    height: auto;
+}
+.ms .sp .wp dl dd{
+    flex: 1;
+    padding: 0.2rem 0; 
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    line-height: 0.4rem;
+}
+.ms .sp .wp dl dd p{
+    font-size: 0.3rem;
+}
+.ms .sp .wp dl dd h1{
+    color: #8ecac4;
+}
+.ms .sp .wp dl dd h3{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import '~antd/dist/antd.css';
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    /* background: #364d79; */
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
